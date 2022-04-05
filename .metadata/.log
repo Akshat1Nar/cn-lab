@@ -1,0 +1,26 @@
+!SESSION 2022-04-05 23:49:15.721 -----------------------------------------------
+eclipse.buildId=5.7.0.211004-1d27e5f35e
+java.version=15.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  lab6
+Command-line arguments:  -os linux -ws gtk -arch x86_64 lab6
+
+!ENTRY org.omnetpp.main 1 0 2022-04-05 23:49:47.479
+!MESSAGE OMNeT++ IDE 5.7.0.211004-1d27e5f35e started.
+
+!ENTRY org.eclipse.ui.ide 4 0 2022-04-05 23:51:41.372
+!MESSAGE Could not import project located at /home/baka/Desktop/lab6
+!STACK 0
+org.eclipse.ui.internal.wizards.datatransfer.CouldNotImportProjectException: Could not import project located at /home/baka/Desktop/lab6
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.toExistingOrNewProject(SmartImportJob.java:565)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.run(SmartImportJob.java:252)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:266)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:252)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.createOrImportProject(SmartImportJob.java:604)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.toExistingOrNewProject(SmartImportJob.java:552)
+	... 2 more
